@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Almarai', sans-serif;
+    background-color: #1a1a1a;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+input{
+    font-size: 20px;
+}
+
+/*header*/
+header{
+    width: 100%;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+header img{
+    width: 70px;
+    height: 70px;
+    padding: 0px 10px;
+    border-left: 1px solid white;
+    border-radius: 10px;
+}
+
+header .hbutton{
+    border: 1px solid white;
+    width: fit-content;
+    padding: 10px;
+    display: inline-block;
+    margin: 0px 20px;
+    align-items: center;
+    transition: font-size 0.5s, background-color 0.5s;
+}
+
+header .hbutton:hover{
+    font-size: 20px;
+    background-color: #3c3c3c;
+}
+/*end of header*/
+
+/*footer*/
+footer{
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 10px 0px;
+    border-top: 1px solid white;
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+footer .fbuttons a{
+    color: #5c5c5c;
+    margin: 20px;
+    transition: color 0.5s;
+}
+
+footer .fbuttons a:hover{
+    color: white;
+}
+/*end of footer*/
+
+/*main*/
+main{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+/*index*/
+main .mgreetings{
+    text-align: center;
+    margin: 100px 0px;
+    font-size: 24px;
+    color: white;
+}
+
+main button{
+    background-color: rgb(0, 65, 0);
+    color: white;
+    padding: 15px 20px;
+    border: 1px solid white;
+    font-size: 22px;
+    font-family: 'Almarai', sans-serif;
+    transition: background-color 0.5s, font-size 0.5s;
+}
+
+main button:hover{
+    background-color: rgb(0, 116, 0);
+    font-size: 24px;
+}
+/*end of index*/
+
+/*form*/
+main .qform{
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+    width: 1200px;
+    text-align: right;
+    padding: 20px;
+    font-size: 26px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 15px #2f2f2f;
+    border-radius: 20px;
+}
+
+main .qform label, input{
+    margin: 20px 0px;
+}
+
+main .fgreetings{
+    text-align: center;
+    margin: 100px 0px;
+    font-size: 24px;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 1300px;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+main .fanswer{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+main .star{
+    color: white;
+    animation-name: star;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+@keyframes star{
+    0%{
+        color: white;
+    }
+
+    50%{
+        color: red;
+    }
+
+    100%{
+        color: white;
+    }
+}
+/*end of form*/
+
+/*admin*/
+main .asubmit-container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+main .asubmit{
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #2f2f2f;
+    width: 200px;
+    padding: 10px;
+    margin: 25px;
+    display: inline-block;
+}
